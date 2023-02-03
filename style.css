@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 
+* {
+    font-family: Open Sans;
+}
 ul {
     background-color: #FED450;
     width: 230px;
@@ -7,7 +10,9 @@ ul {
     list-style-image: url(imagens/seta.png);
 }
 a{
+    display: block;
     font-size: 1.3em;
+    font-weight: 600;
     text-decoration: none;
     color: white;
 }
@@ -15,4 +20,8 @@ li {
     width: 200px;
     background-color: #FED450;
     padding: 5px;
+}
+li:hover {
+    background-color: #c1a137;
+    transition: 300ms;
 }
