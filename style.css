@@ -1,33 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 
-.barra {
-    background-color: #2ec2ca;
-    width: 605px;
-    padding: 0;
-    margin: 0;
-    float: left;
+ul {
+    background-color: #FED450;
+    width: 230px;
     list-style-type: none;
+    list-style-image: url(imagens/seta.png);
+}
+a{
+    font-size: 1.3em;
+    text-decoration: none;
+    color: white;
 }
 li {
-    float: left;
-    border: 1px solid gray;
-}
-li>a {
-    display: block;
-    padding: 0 2em;
-    line-height: 2em;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 500;
-
-}
-li>a:hover {
-    background-color: #4DE6EF;
-    color: black;
-    transition: 300ms;
-}
-#home .barra .home a{
-    background-color: #4DE6EF;
-    color: black;
+    width: 200px;
+    background-color: #FED450;
+    padding: 5px;
 }
