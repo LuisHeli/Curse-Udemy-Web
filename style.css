@@ -1,0 +1,32 @@
+
+#conteudo {
+    height: 400px;
+    background-color: gray;
+    display: flex;
+    width: 700px;
+    flex-direction: row;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.item {
+    background-color: white;
+    border: 1px solid gray;
+    width: 100px;
+    margin: 10px;
+    height: 100px;
+    flex-grow: 1;
+}
+.order1 {
+    order: 3;
+}
+.order2 {
+    order: 1;
+}
+.order3 {
+    order: 4;
+}
+.order4 {
+    order: 2;
+}
