@@ -89,11 +89,7 @@
     <div id="div1" class="collapse">
         Clicou
     </div>
-</body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-</html>
-
-
+    
 <div class="dropdown"> <!-- para colocar lados "dropend" "dropstart" -->
     <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Drop</button>
     <div class="dropdown-menu">
@@ -148,3 +144,39 @@
 </div>
 
 </div>
+
+<!-- COLLAPSE -->
+
+
+<div class="p-5 text-center">
+<button data-bs-target="#div-1" data-bs-toggle="collapse" class="btn btn-primary">Mostrar</button>
+<div id="div-1" class="collapse">Caracteres</div>
+</div>
+
+
+
+<!-- ACCORDION -->
+<div class="accordion">   <!-- div pai para fechar automaticamente a accordion -->
+    <div class="card">
+        <div class="card-header">
+            <a data-bs-target="#div-2" data-bs-toggle="collapse" class="text-primary text-decoration-none">Pergunta 1</a>
+        </div>
+        <div id="div-2" data-parent="#accordion" class="collapse">
+            <div class="card-body">Resposta 1</div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            <a data-bs-toggle="collapse" data-bs-target="#div-3" >Pergunta 2</a>
+        </div>
+        <div id="div-3" data-parent="#accordion" class="collapse">
+            <div class="card-body">Resposta 2</div>
+        </div>
+    </div>
+</div>
+<br><br><br><br><br>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</html>
+
